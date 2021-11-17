@@ -1,3 +1,18 @@
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+body {
+	max-width: 35rem;
+	font-size: 2rem;
+	font-family: sans-serif;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+}
 .cool-background {
 	background-image: url("./images/west-texas.jpg");
 }
